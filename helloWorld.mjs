@@ -1,4 +1,7 @@
+
 export function sayHello(){
-    console.log("Hello!")
+    return "Hello!";
 }
 sayHello();
+
+console.assert(sayHello() == "Hello!", "sayHello should give Hello!");
